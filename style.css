@@ -5,33 +5,46 @@
 /* -------------------------------- 
 		General Style
 -------------------------------- */
+
 html,
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 h2 {
   font-size: 100px;
   position: relative;
   color: #5b85c0;
-  background-image: -webkit-linear-gradient(90deg, #a558d4 0%, #34619e 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 60s infinite linear;
+  font-family: "Oswald", sans-serif;
+  color:white;
 }
 
 p.intro-des {
   position: relative;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 35px;
   margin-top: 50px;
+  font-family: cursive;
+  font-weight: 900;
+  color: rgb(25 25 25);
 }
 p.intro-des a {
   color: #3c3c3c;
 }
+
 p.intro-des span {
   font-size: 15px;
+  color: white;
+}
+
+p.intro-des span a{
+  font-weight: bold;
+  text-decoration: none;
+  font-size: large;
 }
 
 .button-row-container {
@@ -55,7 +68,8 @@ p.intro-des span {
   z-index: 10;
   width: 100%;
   height: 70px;
-  background: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%);
+  background-color: white;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.477);
 }
 
 .nav,
@@ -108,16 +122,27 @@ p.intro-des span {
 
 section.page-container {
   margin: auto;
-  width: 90%;
-  max-width: 800px;
-  height: 100vh;
+  width: 100%;
+  /* height: 100vh; */
   position: relative;
   text-align: center;
 }
 
-#intro {
-  max-width: 800px;
+/* #intro {
+
+} */
+
+.transparent{
+  background-image: url("./images/codecraft_Banner_1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: blur(13px);
 }
+
 #intro .section-container {
   margin-top: 70px;
 }
@@ -130,6 +155,15 @@ section.page-container {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.section-container h2{
+  font-weight: bold;
+  font-size: 100px;
+  box-shadow: 0px 1px 5px rgba(25, 25, 25);
+  border-radius: 10px;
+  top: 25px;
+}
+
 .section-container h4 {
   font-size: 50px;
   font-weight: 300;
@@ -138,26 +172,26 @@ section.page-container {
 }
 
 /*** General Button Styles ***/
-.button-container {
-  display: inline-block;
+/* .button-container { */
+  /* display: inline-block;
   margin: 10px 10px;
   cursor: pointer;
   font-weight: 400;
   letter-spacing: 2px;
-  height: 45px;
-  width: 200px;
-  -webkit-perspective: 1000;
-  -ms-perspective: 1000;
-  perspective: 1000;
-}
-.button-container .flipper {
+  height: 45px; */
+  /* width: 200px; */
+  /* -webkit-perspective: 1000; */
+  /* -ms-perspective: 1000; */
+  /* perspective: 1000; */
+/* } */
+/* .button-container .flipper {
   transition: all 0.5s ease-in-out;
   -webkit-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
-}
-.button-container .button {
+} */
+/* .button-container .button {
   height: 45px;
   width: 200px;
   border-radius: 3px;
@@ -170,21 +204,21 @@ section.page-container {
   justify-content: center;
   -webkit-box-shadow: 1px 2px 4px -1px rgba(60, 60, 60, 0.64);
   box-shadow: 1px 2px 4px -1px rgba(60, 60, 60, 0.64);
-}
-.button-container .button i.fa {
+} */
+/* .button-container .button i.fa {
   color: white;
   font-size: 20px;
   margin: auto;
   text-shadow: 0.5px 1px 2px #3c3c3c;
-}
-.button-container .button.front {
+} */
+/* .button-container .button.front {
   z-index: 10;
-}
-.button-container .button.back {
+} */
+/* .button-container .button.back {
   color: white;
   font-size: 15px;
   text-transform: uppercase;
-}
+} */
 
 
 /* -------------------------------- 
