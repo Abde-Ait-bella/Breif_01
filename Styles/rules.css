@@ -1,8 +1,34 @@
-#rules{
-    background-color: brown;
+body{
+    background-color: #c45c56;
+}
+.section-rules-strategy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-width: 45%;
 }
 
-#rules h1{
-    color: white;
-    font-size: 100px;
+.section-rules-strategy .rules-strategy-container{
+    padding: 45px 35px;
+    border-radius: 10px;
+    font-family: cursive;
+    color: #070708;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    border: 3px solid #282224;
+    margin: 40px 55px;
+}
+
+.section-rules-strategy p{
+    font-size: larger;
+    color: #070708;
+}
+
+
+.section-rules-strategy p:hover{
+    color: #ffff;
+    cursor: pointer;
 }
