@@ -90,6 +90,7 @@ body{
     color: #282224;
     border-radius: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .section-contact form div button:hover{
