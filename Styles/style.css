@@ -1,6 +1,4 @@
 @charset "UTF-8";
-/*** Import Fonts ***/
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 
 html,
 body {
@@ -118,7 +116,7 @@ section.page-container {
 }
 
 .transparent{
-  background-image: url("./images/codecraft_Banner_1.webp");
+  background-image: url("../images/codecraft_Banner_1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
