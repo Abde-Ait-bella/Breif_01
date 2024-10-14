@@ -43,13 +43,14 @@ p.intro-des a {
 
 p.intro-des span {
   font-size: 15px;
-  color: white;
+  color: rgb(50, 50, 50);
 }
 
 p.intro-des span a{
   font-weight: bold;
   text-decoration: none;
   font-size: large;
+  color: white;
 }
 
 /*** Navbar ***/
